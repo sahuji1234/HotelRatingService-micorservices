@@ -14,3 +14,8 @@ spring:
     import: configserver:http://localhost:9094
   profiles:
     active: dev
+
+okta:
+  oauth2:
+    issuer: https://dev-50051655.okta.com/oauth2/default
+    audience: api://default
